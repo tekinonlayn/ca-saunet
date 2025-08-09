@@ -1,12 +1,12 @@
-# Leaf and Skin Segmentation with CA_SAUNet
+# Leaf and Skin Segmentation with CA-SAUNet
 
-This repository contains a PyTorch implementation of the CA_SAUNet model for semantic segmentation on two datasets: PlantDoc (leaf segmentation) and ISIC 2018 (skin lesion segmentation). The model supports dataset selection via a command-line argument, allowing flexible training and evaluation on either dataset.
+This repository contains a PyTorch implementation of the CA-SAUNet model for semantic segmentation on two datasets: PlantDoc (leaf segmentation) and ISIC 2018 (skin lesion segmentation). The model supports dataset selection via a command-line argument, allowing flexible training and evaluation on either dataset.
 
 ## Project Structure
 
 The codebase is organized into the following files:
 - `dataset.py`: Defines dataset classes for PlantDoc and ISIC, along with data loader utilities.
-- `model.py`: Implements the CA_SAUNet model, supporting both PlantDoc and ISIC architectures.
+- `model.py`: Implements the CA-SAUNet model, supporting both PlantDoc and ISIC architectures.
 - `utils.py`: Contains metric functions for evaluation (Pixel Accuracy, Mean IoU, Dice Coefficient, F1 Score).
 - `train.py`: Main script for training and evaluating the model, with dataset selection.
 - `requirements.txt`: Lists required Python dependencies.
